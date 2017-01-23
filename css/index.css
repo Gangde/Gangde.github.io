@@ -1,0 +1,134 @@
+.jobs{
+	width: 1000px;
+	margin:0 auto;
+	padding:30px 50px;
+	position: relative;
+}
+.aboutme{
+	width: 600px;
+	position: relative;
+}
+.aboutme h4{
+	position: absolute;
+	top:0;
+	left:-40px;
+	color:#fff;
+	width: 60px;
+	padding:5px 15px 5px 55px;
+	font-size:18px;
+	background-color: #3C6293;
+	// border-radius: 0 14px 14px 0;
+}
+.aboutme .disc{
+		float: left;
+		padding-top: 40px;
+}
+.aboutme .disc p{
+	text-indent: 1em;
+	line-height: 25px;
+}
+.disc span{
+	// padding-left: 100px;
+	display:block;
+	font:500 40px 'microsoft Yahei';
+}
+.work{
+	padding-top:20px;
+}
+.work h4{
+	width: 600px;
+	border-bottom: 1px solid #ccc;
+	font-size:25px;
+}
+.work .compu h5{
+	float: left;
+	padding-right: 10px;
+}
+.work .compu ul{
+	border-left: 1px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+	padding-left:10px;
+}
+.compu ul li{
+	padding: 5px 0;
+}
+.work .compu{
+	padding-top: 10px;
+}
+.mytell{
+	position: absolute;
+	top:0;
+	right:20%;
+}
+.showme::before{
+	content: '';
+	position: absolute;
+	border:1px solid #000;
+	box-sizing: border-box;
+	left:93px;
+	top:2px;
+	width: 15px;
+	height: 15px;
+	border-radius:50%;
+	background-color: #fff;
+}
+.mytell .showme{
+	width: 200px;
+	// height: 1000px;
+	background-color:#E6E6E6;
+	border-radius:200px 200px 0 0;
+	padding-top: 20px;
+}
+.showme .myphoto{
+	width: 150px;
+	height: 150px;
+	margin:0 auto;
+	border: 2px solid #ccc;
+	border-radius:50%;
+	overflow: hidden;
+}
+.mytell .message{
+	background-color:#E6E6E6;
+	padding-top:50px;
+}
+.mytell .message li{
+	padding:5px;
+}
+.mytell .message span{
+	font-weight: 700;
+}
+.mytell .title{
+	padding-left: 30px;
+	width: 70%;
+	border-bottom:1px solid #ccc;
+	line-height:24px;
+	margin-bottom:20px;
+}
+.mytell .skill{
+	background-color:#E6E6E6;
+	padding-top: 30px;
+	padding-left:10px;
+}
+.mytell .skill li{
+	line-height:30px;
+}
+.mytell .skill li li{
+	overflow:hidden;
+}
+.mytell .skill p{
+	float: left;
+}
+.mytell .skill span{
+	border:1px solid #000;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius:50%;
+	background-color: red;
+	margin-top: 10px;
+	margin-right: 3px;
+}
+.mytell .skill .kong{
+	background-color: #ccc;
+}
