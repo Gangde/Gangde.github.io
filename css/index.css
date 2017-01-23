@@ -17,7 +17,6 @@
 	padding:5px 15px 5px 55px;
 	font-size:18px;
 	background-color: #3C6293;
-	// border-radius: 0 14px 14px 0;
 }
 .aboutme .disc{
 		float: left;
@@ -30,22 +29,33 @@
 .disc span{
 	// padding-left: 100px;
 	display:block;
+	color:#3C6293;
 	font:500 40px 'microsoft Yahei';
+}
+.disc span::before{
+	content:'\e6ed';
+	font-family:'myfont';
+}
+.work h4::after{
+	content:'\e6e6';
+	font-family:'myfont';
 }
 .work{
 	padding-top:20px;
 }
 .work h4{
+	color:#3C6293;
 	width: 600px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 2px solid #ccc;
 	font-size:25px;
 }
 .work .compu h5{
+	color:#3C6293;
 	float: left;
 	padding-right: 10px;
 }
 .work .compu ul{
-	border-left: 1px solid #ccc;
+	border-left: 2px solid #ccc;
 	float: left;
 	margin-bottom: 20px;
 	padding-left:10px;
@@ -87,6 +97,7 @@
 	border: 2px solid #ccc;
 	border-radius:50%;
 	overflow: hidden;
+	background-color:#3C6293;
 }
 .mytell .message{
 	background-color:#E6E6E6;
@@ -98,12 +109,29 @@
 .mytell .message span{
 	font-weight: 700;
 }
+.mytell .message .email::before{
+	content:'\e605';
+	font-family:'myfont';
+}
+.mytell .message .tel::before{
+	content:'\e6e8';
+	font-family:'myfont';
+}
+.mytell .message .git::before{
+	content:'\e7dd';
+	font-family:'myfont';
+}
 .mytell .title{
+	color:#3C6293;
 	padding-left: 30px;
 	width: 70%;
-	border-bottom:1px solid #ccc;
+	border-bottom:2px solid #ccc;
 	line-height:24px;
 	margin-bottom:20px;
+}
+.mytell .title::after{
+	content:'\e601';
+	font-family:'myfont';
 }
 .mytell .skill{
 	background-color:#E6E6E6;
@@ -125,10 +153,15 @@
 	width: 10px;
 	height: 10px;
 	border-radius:50%;
-	background-color: red;
+	background-color:#3C6293;
 	margin-top: 10px;
 	margin-right: 3px;
 }
 .mytell .skill .kong{
 	background-color: #ccc;
+}
+.mytell .foot{
+	width: 200px;
+	height: 30px;
+	background-color: #3C6293;
 }
