@@ -22,19 +22,40 @@
 		float: left;
 		padding-top: 40px;
 }
-.aboutme .disc p{
-	text-indent: 1em;
-	line-height: 25px;
-}
-.disc span{
+.disc .self{
 	// padding-left: 100px;
 	display:block;
 	color:#3C6293;
 	font:500 40px 'microsoft Yahei';
+	margin-bottom:10px;
 }
-.disc span::before{
+.disc .self::before{
 	content:'\e6ed';
 	font-family:'myfont';
+}
+.disc .one::after{
+	content:'\e647';
+	font-family:'myfont';
+}
+.disc .two::after{
+	content:'\e7ce';
+	font-family:'myfont';
+}
+.disc .three::after{
+	content:'\e642';
+	font-family:'myfont';
+}
+.disc .fore::after{
+	content:'\e604';
+	font-family:'myfont';
+}
+.disc li::before{
+	content:'\e681';
+	font-family:'myfont';
+}
+.disc li{
+	margin-bottom:10px;
+	line-height:24px;
 }
 .work h4::after{
 	content:'\e6e6';
@@ -46,7 +67,7 @@
 .work h4{
 	color:#3C6293;
 	width: 600px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid #3C6293;
 	font-size:25px;
 }
 .work .compu h5{
@@ -55,13 +76,17 @@
 	padding-right: 10px;
 }
 .work .compu ul{
-	border-left: 2px solid #ccc;
+	border-left: 2px solid #3C6293;
 	float: left;
 	margin-bottom: 20px;
 	padding-left:10px;
 }
 .compu ul li{
 	padding: 5px 0;
+}
+.compu ul li::before{
+	content:'\e681';
+	font-family:'myfont';
 }
 .work .compu{
 	padding-top: 10px;
@@ -74,7 +99,7 @@
 .showme::before{
 	content: '';
 	position: absolute;
-	border:1px solid #000;
+	border:2px solid #3C6293;
 	box-sizing: border-box;
 	left:93px;
 	top:2px;
@@ -94,7 +119,7 @@
 	width: 150px;
 	height: 150px;
 	margin:0 auto;
-	border: 2px solid #ccc;
+	border: 2px solid #3C6293;
 	border-radius:50%;
 	overflow: hidden;
 	background-color:#3C6293;
@@ -102,6 +127,7 @@
 .mytell .message{
 	background-color:#E6E6E6;
 	padding-top:50px;
+	padding-left:10px;
 }
 .mytell .message li{
 	padding:5px;
@@ -123,14 +149,14 @@
 }
 .mytell .title{
 	color:#3C6293;
-	padding-left: 30px;
-	width: 70%;
-	border-bottom:2px solid #ccc;
+	width: 90%;
+	text-align: center;
+	border-bottom:2px solid #3C6293;
 	line-height:24px;
 	margin-bottom:20px;
 }
-.mytell .title::after{
-	content:'\e601';
+.skill li h4::after{
+	content:'\e89a';
 	font-family:'myfont';
 }
 .mytell .skill{
@@ -146,12 +172,20 @@
 }
 .mytell .skill p{
 	float: left;
+	margin-right:10px;
+}
+.mytell .skill p::before{
+	content:'\e60e';
+	font-family:'myfont';
+}
+.mytell .skill li h4{
+	font-weight:600;
 }
 .mytell .skill span{
 	border:1px solid #000;
 	float: left;
-	width: 10px;
-	height: 10px;
+	width: 6px;
+	height: 6px;
 	border-radius:50%;
 	background-color:#3C6293;
 	margin-top: 10px;

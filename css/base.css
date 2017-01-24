@@ -3,6 +3,7 @@ body,h3,h4,h5,p,ul,li{
 	margin: 0;
 	font-size: 14px;
 	color:#333;
+	font-family:'microsoft Yahei';
 }
 ul{
 	list-style: none;
