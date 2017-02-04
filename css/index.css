@@ -65,19 +65,36 @@
 	content:'\e6e6';
 	font-family:'myfont';
 }
-.work{
+.work,.program{
 	padding-top:20px;
+	position: relative;
 }
-.work h4{
+.work h4,.program h4{
 	color:#3C6293;
 	width: 600px;
 	border-bottom: 2px solid #3C6293;
 	font-size:25px;
 }
 .work .compu h5{
+	width: 9%;	
 	color:#3C6293;
 	float: left;
-	padding-right: 10px;
+	text-align:center;
+	padding-right: 5px;
+}
+.program .compu h5{
+	margin-left:5%;
+	text-align:center;
+	color:#3C6293;
+	width: 50%;
+	padding:10px 0;
+	border-bottom:1px solid #3C6293;
+}
+.program .compu h5::before{
+	padding-right:5px;
+	content:'\e619';
+	font-family:'myfont';
+	color:#3C6293;
 }
 .work .compu ul{
 	border-left: 2px solid #3C6293;
@@ -88,17 +105,30 @@
 .compu ul li{
 	padding: 5px 0;
 }
+.program::after{
+	position:absolute;
+	top:40%;
+	right:10%;
+	content:'\e6e9';
+	font-family:'myfont';
+	font-size:300px;
+	color:#3C6293;
+}
+.program .compu ul li{
+	width: 50%;
+	margin-left:6%;
+}
 .compu ul li::before{
 	content:'\e681';
 	font-family:'myfont';
 }
-.work .compu{
+.compu{
 	padding-top: 10px;
 }
 .mytell{
 	position: absolute;
 	top:0;
-	right:20%;
+	right:15%;
 }
 .showme::before{
 	content: '';
@@ -128,10 +158,6 @@
 	overflow: hidden;
 	background-color:#3C6293;
 }
-.showme .myphoto img{
-	// margin-top: 10px;
-	margin-left: -5px;
-}
 .mytell .message{
 	background-color:#E6E6E6;
 	padding-top:50px;
@@ -146,14 +172,17 @@
 .mytell .message .email::before{
 	content:'\e605';
 	font-family:'myfont';
+	color:#3C6293;
 }
 .mytell .message .tel::before{
 	content:'\e6e8';
 	font-family:'myfont';
+	color:#3C6293;
 }
 .mytell .message .git::before{
 	content:'\e7dd';
 	font-family:'myfont';
+	color:#3C6293;
 }
 .mytell .title{
 	color:#3C6293;
