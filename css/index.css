@@ -39,7 +39,7 @@
 	font-family:'myfont';
 }
 .disc .one::after{
-	content:'\e647';
+	content:'\ec9f';
 	font-family:'myfont';
 }
 .disc .two::after{
@@ -105,6 +105,7 @@
 }
 .compu ul li{
 	padding: 5px 0;
+	line-height: 20px;
 }
 .program::after{
 	position:absolute;
